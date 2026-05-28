@@ -11,9 +11,11 @@ Optimierungsvorschläge für das Hermes Agent Deployment. Jede Datei ist ein eig
 | 003 | [Docker-Compose Optimierungen](003-docker-compose-optimierungen.md) | Healthcheck, Resource Limits, Litellm-Service, Log-Rotation |
 | 004 | [Config & Security Hardening](004-config-security-hardening.md) | Tokens in .env, Tirith aktivieren, Secret Redaction |
 
-## Bezug zum Haupt-Repo
+## Bezug zu den Repos
 
-- **Quelle:** `karle-deployment-readonly` (dev-Branch)
+- **`karle-deployment`** → Daniels lokales Arbeits-Repo (Codex bearbeitet hier)
+- **`karle-deployment-readonly`** → Mirror von karle-deployment (nur Lesen für Karle)
+- **`karle-deployment-suggestions`** → Dieses Repo (Optimierungsvorschläge)
 - **Dockerfile:** `/opt/hermes/Dockerfile`
 - **Compose:** `/opt/hermes/docker-compose.yml`
 - **Config:** `/opt/data/config.yaml` (persistentes Volume)
@@ -24,6 +26,5 @@ Optimierungsvorschläge für das Hermes Agent Deployment. Jede Datei ist ein eig
 ```bash
 # Codex-Prompt für jede Datei:
 " Lies <dateiname>.md und wende die empfohlenen Änderungen auf das
-  karle-deployment-readonly Repo (dev-Branch) an. Commit mit beschreibender
-  Nachricht. "
+  karle-deployment Repo an. Commit mit beschreibender Nachricht. "
 ```
