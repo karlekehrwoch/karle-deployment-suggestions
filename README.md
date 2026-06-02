@@ -12,6 +12,7 @@ Optimierungsvorschläge für das Hermes Agent Deployment. Jede Datei ist ein eig
 | 004 | [Config & Security Hardening](004-config-security-hardening.md) | Tokens in .env, Tirith aktivieren, Secret Redaction | ✅ |
 | 005 | [1min.ai MCP Server](005-1min-mcp-server.md) | MCP-Server für 1min.ai API (30+ Tools, Multi-Account-Rotation) | 🆕 Proposal |
 | 006 | [1forall.ai MCP Server](006-1forall-mcp-server.md) | MCP-Server für 1forall.ai API (16+ Tools, Async-Polling, Multi-Account-Rotation) | 🆕 Proposal |
+| 009 | [MiniMax M3 – Ollama Cloud](009-minimax-m3-ollama-cloud.md) | 1M-Kontext Coding/Agentic Modell auf Ollama Cloud (Zero Data Retention) | 🆕 Proposal |
 
 ## Bezug zu den Repos
 
